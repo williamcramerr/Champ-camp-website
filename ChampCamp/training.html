@@ -2,10 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Training - Champ Camp</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Champ Camp - Training</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM5DgLjF9N+tSks84+8FXfN/Zxw5Qm7Fn2TfZg1"
+    crossorigin="anonymous"
+  />
 </head>
 <body>
+
+  <!-- Navigation -->
   <nav class="top-nav">
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -15,12 +23,18 @@
     </ul>
   </nav>
 
-  <main class="training-page">
-    <section class="hero-static">
+  <!-- Header with Logo and Title -->
+  <header class="page-header">
+    <img src="images/logo.png" alt="ChampCamp Logo" class="header-logo" />
+    <div class="header-content">
       <h1>Training Programs</h1>
       <p>Boxing • MMA • Private Coaching • Gym Access</p>
-    </section>
+    </div>
+    <img src="images/logo.png" alt="ChampCamp Logo" class="header-logo" />
+  </header>
 
+  <!-- Training Details -->
+  <main class="training-page">
     <section class="training-grid">
       <div class="training-box">
         <h2>Boxing</h2>
@@ -44,8 +58,32 @@
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 Champ Camp Training Facility</p>
+  <!-- Footer with Address, Social Icons, Contact -->
+  <footer class="site-footer">
+    <div class="footer-col footer-address">
+      <h3 style="color: red;">Address</h3>
+      <p style="color: red;">1491 Lee Trevino</p>
+      <p style="color: red;">El Paso, TX 79936</p>
+    </div>
+
+    <div class="footer-col footer-center">
+      <div class="social-icons">
+        <a href="https://www.facebook.com/epchampcamp/" target="fb" aria-label="Facebook">
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" />
+        </a>
+        <a href="https://www.instagram.com/champcamptrainingfacility/?hl=en" target="insta" aria-label="Instagram">
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" />
+        </a>
+      </div>
+      <p style="color: red; margin-top: 0.5rem;">© 2025 Champ Camp Training Facility</p>
+    </div>
+
+    <div class="footer-col footer-contact">
+      <h3 style="color: red;">Contact Us</h3>
+      <p style="color: red;">(915) 257‑3357</p>
+      <p style="color: red;"><a href="mailto:diaDelosPescados@gmail.com">diaDelosPescados@gmail.com</a></p>
+    </div>
   </footer>
+
 </body>
 </html>
